@@ -1,0 +1,10 @@
+version: "3.0"
+
+services:
+    app:
+      container_name: beans-coatings-web-container
+      build:
+        context: ../../
+        dockerfile: build/Dockerfile
+      ports:
+        - 8088:8088

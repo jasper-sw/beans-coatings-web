@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+    app:
+      container_name: beans-coatings-web-container
+      build:
+        context: ../../
+        dockerfile: build/Dockerfile
+      network_mode: host
+      restart: always
