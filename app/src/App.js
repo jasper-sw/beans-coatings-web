@@ -11,21 +11,21 @@ function App() {
       <header className="App-header">
         <div>
           <div >
-            <img src={bean_clear} style={{flexGrow: 1}} />
-            <img src={bean_clear} style={{flexGrow: 1}} />
+            <img src={bean_clear} style={{maxWidth: '80%'}} />
+            <img src={bean_clear} style={{maxWidth: '80%'}} />
           </div>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique rhoncus purus, ac faucibus ante pharetra non. Donec massa enim, volutpat non risus vitae, posuere mattis metus. Curabitur enim nulla, congue ut magna a, semper venenatis arcu.
             </p>
         </div>
         <div>
-          <img src={bean_clear} style={{flexGrow: 1}} />
+          <img src={bean_clear} style={{maxWidth: '80%'}} />
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique rhoncus purus, ac faucibus ante pharetra non. Donec massa enim, volutpat non risus vitae, posuere mattis metus. Curabitur enim nulla, congue ut magna a, semper venenatis arcu.
             </p>
         </div>
         <div>
-          <img src={bean_clear} style={{flexGrow: 1}} />
+          <img src={bean_clear} style={{maxWidth: '80%'}} />
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique rhoncus purus, ac faucibus ante pharetra non. Donec massa enim, volutpat non risus vitae, posuere mattis metus. Curabitur enim nulla, congue ut magna a, semper venenatis arcu.
             </p>
