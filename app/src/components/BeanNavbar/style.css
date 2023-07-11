@@ -10,7 +10,7 @@
   }
   
   .navbar {
-    height: 150px;
+    height: 100px;
     background-color: #AC998A;
     position: relative;
   }
@@ -20,7 +20,7 @@
   }
   
   .logo {
-    height: 60%;
+    height: 30%;
     width: 70%;
     display: flex;
   }
@@ -47,7 +47,7 @@
   }
   
   .nav-elements ul a {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
     color: #2f234f;
     text-decoration: none;
@@ -84,7 +84,7 @@
     .nav-elements {
       position: absolute;
       right: 0;
-      top: 150px;
+      top: 100px;
       background-color: #AC998A;
       width: 0px;
       height: calc(100vh - 60px);

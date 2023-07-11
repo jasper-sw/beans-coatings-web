@@ -25,7 +25,7 @@ function BeanNavbar() {
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
             <IconButton style={{color: 'black'}}>    
-                <ListIcon style={{fontSize: '50px', color: 'black', height: '50px'}}/>
+                <ListIcon style={{fontSize: '40px', color: 'black', height: '40px'}}/>
             </IconButton>
           </div>
           <div className={`nav-elements  ${showNav && 'active'}`}>
