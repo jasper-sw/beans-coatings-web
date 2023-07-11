@@ -10,7 +10,7 @@
   }
   
   .navbar {
-    height: 100px;
+    height: 80px;
     background-color: #AC998A;
     position: relative;
   }
@@ -21,7 +21,7 @@
   
   .logo {
     height: 30%;
-    width: 70%;
+    width: 60%;
     display: flex;
   }
   
@@ -84,7 +84,7 @@
     .nav-elements {
       position: absolute;
       right: 0;
-      top: 100px;
+      top: 80px;
       background-color: #AC998A;
       width: 0px;
       height: calc(100vh - 60px);
