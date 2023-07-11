@@ -1,15 +1,15 @@
 import './style.css';
 import BeanNavbar from '../../components/BeanNavbar';
 
-function HomePage() {
+function NotFound() {
   return (
     <div className="App">
     <BeanNavbar />
       <header className="App-header">
-        Home Page        
+        Not Found Page        
       </header>
     </div>
   );
 }
 
-export default HomePage;
+export default NotFound;

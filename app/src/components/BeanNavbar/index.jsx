@@ -31,16 +31,16 @@ function BeanNavbar() {
           <div className={`nav-elements  ${showNav && 'active'}`}>
             <ul>
               <li>
-                <NavLink href="/">Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink href="/Gallery">Gallery</NavLink>
+                <NavLink to="/gallery">Gallery</NavLink>
               </li>
               <li>
-                <NavLink href="/About">About</NavLink>
+                <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <NavLink href="/contact">Contact</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
           </ul>
         </div>
