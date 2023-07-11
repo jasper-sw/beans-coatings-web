@@ -2,7 +2,6 @@ version: "3.8"
 
 services:
     beans-coatings-web-container:
-      container_name: beans-coatings-web-container
       build:
         context: ../../
         dockerfile: build/Dockerfile
