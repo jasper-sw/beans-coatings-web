@@ -20,7 +20,6 @@
   }
   
   .logo {
-    height: 30%;
     width: 60%;
     display: flex;
   }
@@ -42,7 +41,7 @@
     list-style-type: none;
   }
   
-  .nav-elements ul li:not(:last-child) {
+  .nav-elements ul li {
     margin-right: 60px;
   }
   
@@ -70,7 +69,7 @@
   }
   
   @media (max-width: 768px) {
-    .nav-elements ul li:not(:last-child) {
+    .nav-elements ul li {
       margin-right: 30px;
     }
   }
@@ -102,7 +101,7 @@
     }
   
     .nav-elements ul li {
-      margin-right: unset;
+      margin-right: 2rem;
       margin-top: 22px;
     }
   }
