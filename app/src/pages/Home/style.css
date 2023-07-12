@@ -20,12 +20,15 @@
   background-color: #FFFFFF44;
 }
 
+.front-page-header {
+  font-size: 6rem;
+}
+
 .front-page-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 150px;
-  font-size: 35px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
