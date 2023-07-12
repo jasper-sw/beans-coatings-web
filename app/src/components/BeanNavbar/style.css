@@ -1,6 +1,5 @@
 /* thanks to https://www.codevertiser.com/reactjs-responsive-navbar/ for some inspiration here */
 .container {
-    max-width: 1100px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
@@ -20,6 +19,7 @@
   }
   
   .logo {
+    max-height: 12vh;
     width: 60%;
     display: flex;
   }
@@ -92,7 +92,7 @@
     }
   
     .nav-elements.active {
-      width: 270px;
+      width: 180px;
     }
   
     .nav-elements ul {
