@@ -1,4 +1,4 @@
-import bean_with_text from '../../assets/bean/bean_right_text.svg';
+import bean_with_text from '../../assets/bean/bean_right_text_large.svg';
 import bean_clear from '../../assets/bean/bean_clear.svg'
 import { IconButton, Typography, Button, Icon } from '@mui/material';
 import ListIcon from '@mui/icons-material/List';
