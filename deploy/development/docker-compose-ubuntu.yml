@@ -5,5 +5,7 @@ services:
       build:
         context: ../../
         dockerfile: build/Dockerfile
-      network_mode: host
+        #network_mode: host
+      ports:
+        - 8088:80
       restart: always

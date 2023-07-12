@@ -12,5 +12,5 @@ RUN rm -rf ./*
 COPY --from=builder /app/build .
 RUN rm /etc/nginx/nginx.conf
 COPY build/nginx.conf /etc/nginx/
-EXPOSE 8088
+#EXPOSE 8088
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
