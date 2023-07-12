@@ -22,6 +22,8 @@
 
 .front-page-header {
   font-size: 6rem;
+  width: 80%;
+  font-weight: 350;
 }
 
 .front-page-container {
@@ -29,7 +31,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .App-header {
