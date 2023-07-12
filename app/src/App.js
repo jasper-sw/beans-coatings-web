@@ -1,7 +1,4 @@
-import bean_with_text from './bean_with_text.svg';
-import bean_clear from './bean_clear.svg'
 import './App.css';
-import BeanNavbar from './components/BeanNavbar';
 import AboutPage from './pages/About';
 import HomePage from './pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';

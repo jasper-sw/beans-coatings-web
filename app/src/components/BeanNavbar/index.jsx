@@ -1,8 +1,6 @@
-import bean_with_text from '../../bean_right_text.svg';
-import bean_clear from '../../bean_clear.svg'
-import Toolbar from '@mui/material/Toolbar';
+import bean_with_text from '../../assets/bean/bean_right_text.svg';
+import bean_clear from '../../assets/bean/bean_clear.svg'
 import { IconButton, Typography, Button, Icon } from '@mui/material';
-import MenuIcon from '@mui/material/MenuItem';
 import ListIcon from '@mui/icons-material/List';
 import { NavLink } from 'react-router-dom';
 import './style.css';
