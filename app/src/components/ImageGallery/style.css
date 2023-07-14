@@ -25,6 +25,7 @@
 .image-gallery-photo {
     max-height: 60vh;
     max-width: 40vh;
+    border-radius: 20px;
 }
 
 .card-wrapper {

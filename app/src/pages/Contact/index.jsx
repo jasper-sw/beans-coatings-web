@@ -7,10 +7,16 @@ function ContactPage() {
   return (
     <div className="App">
     <BeanNavbar />
-      <header className="App-header">
+      <div className="contact-section">
         <img src={bean_clear} className='contact-page-bean'></img>
-        Contact Page        
-      </header>
+        <h1 className="contact-blurb-header">Need a quote? <br/> Just wanna talk?</h1>
+        <p1 className="contact-blurb-text">Hit us up anytime! 
+        <br/><br/>
+        Phone: 000-000-0000
+        <br/>
+        Email: bean@bean.com
+        </p1>
+      </div>
     </div>
   );
 }
