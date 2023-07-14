@@ -31,9 +31,25 @@
     width: 80vw;
 }
 
+.right-arrow {
+    color: black;
+}
+
+.left-arrow {
+    color: black;
+}
+
 @media (max-width: 900px) {
     .image-gallery-photo {
         max-height: 50vh;
         max-width: 25vh;
+    }
+
+    .right-arrow {
+        color: #AC998A;
+    }
+
+    .left-arrow {
+        color: #AC998A;
     }
   }

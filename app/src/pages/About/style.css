@@ -13,6 +13,23 @@
   }
 }
 
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-blurb-text {
+  font-size: 27px;
+  margin-bottom: 10rem;
+  max-width: 50%;
+}
+
+.about-blurb-header {
+  font-size: 90px;
+  font-weight: 300;
+}
+
 .App-header {
   background-color: #ebe8e8;
   min-height: 100vh;
@@ -29,7 +46,24 @@
 }
 
 .about-page-bean {
-  display: flex;
-  height: 20%;
-  width: 60%;
+  max-height: 30vh;
+  margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .about-page-bean {
+    max-height: 30vh;
+    margin-top: 1rem;
+  }
+  
+  .about-blurb-text {
+    font-size: 17px;
+    margin-bottom: 3rem;
+    max-width: 70%;
+  }
+  
+  .about-blurb-header {
+    font-size: 50px;
+    font-weight: 300;
+  }
 }
