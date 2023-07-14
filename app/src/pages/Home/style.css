@@ -2,27 +2,37 @@
   text-align: center;
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url('/public/photos/rim1.jpeg');
-  background-size: 100%;
+  /* background-image: url('/public/photos/grey_rim1.jpeg'); */
+  /* background-repeat: repeat-y; */
+  /* background-size: 10%; */
   display: flex;
   flex-direction: column;
+  background-color: #fff7ed;
 }
 
 .front-page-image {
   display: flex;
-  height: 20%;
-  width: 60%;
+  height: 30%;
+  width: 50%;
 }
 
 .front-page-text {
-  margin: 40px;
+  margin-right: 20rem;
+  margin-left: 20rem;
   color: black;
   background-color: #FFFFFF44;
 }
 
 .front-page-header {
-  font-weight: 600;
+  font-weight: 300;
   margin: 20px;
+}
+
+.front-page-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
 }
 
 .front-page-container {
@@ -30,7 +40,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
   max-width: 100vw;
 }
 
@@ -47,4 +57,22 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@media (max-width: 900px) {
+  .front-page-text {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    color: black;
+    background-color: #FFFFFF44;
+  }
+
+  .front-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 100vw;
+  }
 }

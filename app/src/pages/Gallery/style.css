@@ -1,31 +1,10 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 10vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #ebe8e8;
   min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-.App-link {
-  color: #61dafb;
+  background-color: #fff7ed;
 }
 
 .gallery-page-bean {
@@ -33,3 +12,63 @@
   height: 20%;
   width: 60%;
 }
+
+.gallery-page-image {
+  display: flex;
+  height: 30%;
+  width: 50%;
+}
+
+.gallery-page-header {
+  font-weight: 300;
+  margin: 20px;
+}
+
+.gallery-page-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50vw;
+  max-height: 50vh;
+  margin: 50px;
+}
+
+.image-gallery-wrapper {
+  display: flex;
+  flex-grow: 0.5;
+}
+
+.gallery-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 400;
+  max-width: 100vw;
+}
+
+.gallery-page-text {
+  margin-right: 20rem;
+  margin-left: 20rem;
+  color: black;
+  background-color: #FFFFFF44;
+}
+
+@media (max-width: 900px) {
+  .gallery-page-text {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    color: black;
+    background-color: #FFFFFF44;
+  }
+
+  .gallery-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 100vw;
+  }
+}
+
