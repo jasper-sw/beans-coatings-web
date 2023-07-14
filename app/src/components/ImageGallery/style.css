@@ -30,3 +30,10 @@
 .card-wrapper {
     width: 80vw;
 }
+
+@media (max-width: 900px) {
+    .image-gallery-photo {
+        max-height: 50vh;
+        max-width: 25vh;
+    }
+  }
