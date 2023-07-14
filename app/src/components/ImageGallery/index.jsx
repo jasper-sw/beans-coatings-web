@@ -35,11 +35,11 @@ function ImageGallery(props) {
                 <div className="image-gallery">
                     <div className="item-row-wrapper">
                             <IconButton onClick={handleLeftOnClick} >
-                                <ArrowBackIosIcon style={{fontSize: "70px", color: "black"}}/>
+                                <ArrowBackIosIcon style={{fontSize: "60px", color: "black"}}/>
                             </IconButton>
                             <img src={currentPhoto} className="image-gallery-photo"></img>
                             <IconButton onClick={handleRightOnClick}>
-                                <ArrowForwardIosIcon style={{fontSize: "70px", color: "black"}}/>
+                                <ArrowForwardIosIcon style={{fontSize: "60px", color: "black"}}/>
                             </IconButton>
                     </div>
                 </div>
