@@ -17,10 +17,8 @@ function GalleryPage() {
     <div className="App">
       <BeanNavbar />
       <div className="gallery-page-container">
-        <div className="gallery-page-section">
-            <h1 className="gallery-page-header">Past works</h1>
-        </div>
         <div className="image-gallery-wrapper">
+            <h1 className="gallery-page-header">Past works</h1>
             <ImageGallery images={images} />
         </div>
         {/* <div className="gallery-page-section">

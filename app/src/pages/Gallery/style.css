@@ -21,7 +21,7 @@
 
 .gallery-page-header {
   font-weight: 300;
-  margin: 20px;
+  margin: 10px;
 }
 
 .gallery-page-section {
@@ -30,12 +30,9 @@
   align-items: center;
   max-width: 50vw;
   max-height: 50vh;
-  margin: 50px;
 }
 
 .image-gallery-wrapper {
-  display: flex;
-  flex-grow: 0.5;
 }
 
 .gallery-page-container {
