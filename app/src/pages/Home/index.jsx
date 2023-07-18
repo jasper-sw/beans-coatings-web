@@ -11,12 +11,12 @@ function HomePage() {
         <div className="front-page-container">
           <div className="front-page-section">
             <h1 className="front-page-header">Full coverage. Guaranteed.</h1>
-            <img src={process.env.PUBLIC_URL + '/photos/purple_rim1.jpeg'} className='front-page-image'></img>
+            <img src={process.env.PUBLIC_URL + '/photos/rim_pile.jpeg'} className='front-page-image'></img>
             <p1 className="front-page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere leo eu volutpat ultricies. Quisque pharetra magna eget ex posuere rutrum.</p1>
           </div>
           <div className="front-page-section">
             <h1 className="front-page-header">Custom Coatings for Every Project</h1>
-            <img src={process.env.PUBLIC_URL + '/photos/black_rim1.jpeg'} className='front-page-image'></img>
+            <img src={process.env.PUBLIC_URL + '/photos/purple_rim1.jpeg'} className='front-page-image'></img>
             <p1 className="front-page-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere leo eu volutpat ultricies. Quisque pharetra magna eget ex posuere rutrum.</p1>
           </div>
           <div className="front-page-section">

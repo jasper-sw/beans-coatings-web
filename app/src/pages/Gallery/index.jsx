@@ -10,7 +10,8 @@ function GalleryPage() {
   `${process.env.PUBLIC_URL}/photos/purple_rim1.jpeg`,
   `${process.env.PUBLIC_URL}/photos/purple_rim2.jpeg`,
   `${process.env.PUBLIC_URL}/photos/black_rim1.jpeg`,
-  `${process.env.PUBLIC_URL}/photos/black_rim2.jpeg`];
+  `${process.env.PUBLIC_URL}/photos/black_rim2.jpeg`,
+  `${process.env.PUBLIC_URL}/photos/rim_pile.jpeg`];
 
   
   return (
